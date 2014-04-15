@@ -1,65 +1,65 @@
-Sequence,3 letter code,code,name
-GCA,Ala,A,Alanine
-GCC,Ala,A,Alanine
-GCG,Ala,A,Alanine
-GCT,Ala,A,Alanine
-AGA,Arg,R,Arginine
-AGG,Arg,R,Arginine
-CGA,Arg,R,Arginine
-CGC,Arg,R,Arginine
-CGG,Arg,R,Arginine
-CGT,Arg,R,Arginine
-AAC,Asn,N,Asparagine
-AAT,Asn,N,Asparagine
-GAC,Asp,D,Aspartic
-GAT,Asp,D,Aspartic
-TGC,Cys,C,Cysteine
-TGT,Cys,C,Cysteine
-CAA,Gln,Q,Glutamine
-CAG,Gln,Q,Glutamine
-GAA,Glu,E,Glutamic
-GAG,Glu,E,Glutamic
-GGA,Gly,G,Glycine
-GGC,Gly,G,Glycine
-GGG,Gly,G,Glycine
-GGT,Gly,G,Glycine
-CAC,His,H,Histidine
-CAT,His,H,Histidine
-ATA,Ile,I,Isoleucine
-ATC,Ile,I,Isoleucine
-ATT,Ile,I,Isoleucine
-CTA,Leu,L,Leucine
-CTC,Leu,L,Leucine
-CTG,Leu,L,Leucine
-CTT,Leu,L,Leucine
-TTA,Leu,L,Leucine
-TTG,Leu,L,Leucine
-AAA,Lys,K,Lysine
-AAG,Lys,K,Lysine
-ATG,Met,M,Methionine
-TTC,Phe,F,Phenylalanine
-TTT,Phe,F,Phenylalanine
-CCA,Pro,P,Proline
-CCC,Pro,P,Proline
-CCG,Pro,P,Proline
-CCT,Pro,P,Proline
-AGC,Ser,S,Serine
-AGT,Ser,S,Serine
-TCA,Ser,S,Serine
-TCC,Ser,S,Serine
-TCG,Ser,S,Serine
-TCT,Ser,S,Serine
-TAA,Stop,,Ochre
-TAG,Stop,,Amber
-TGA,Stop,,Opal
-ACA,Thr,T,Threonine
-ACC,Thr,T,Threonine
-ACG,Thr,T,Threonine
-ACT,Thr,T,Threonine
-TGG,Trp,W,Tryptophan
-TAC,Tyr,Y,Tyrosine
-TAT,Tyr,Y,Tyrosine
-GTA,Val,V,Valine
-GTC,Val,V,Valine
-GTG,Val,V,Valine
-GTT,Val,V,Valine
+Sequence,3 letter code,code,name,dna to 3,dna to 1,dna to name
+GCA,Ala,A,Alanine,"'GCA': 'Ala',","'GCA': 'A',","'GCA': 'Alanine',"
+GCC,Ala,A,Alanine,"'GCC': 'Ala',","'GCC': 'A',","'GCC': 'Alanine',"
+GCG,Ala,A,Alanine,"'GCG': 'Ala',","'GCG': 'A',","'GCG': 'Alanine',"
+GCT,Ala,A,Alanine,"'GCT': 'Ala',","'GCT': 'A',","'GCT': 'Alanine',"
+AGA,Arg,R,Arginine,"'AGA': 'Arg',","'AGA': 'R',","'AGA': 'Arginine',"
+AGG,Arg,R,Arginine,"'AGG': 'Arg',","'AGG': 'R',","'AGG': 'Arginine',"
+CGA,Arg,R,Arginine,"'CGA': 'Arg',","'CGA': 'R',","'CGA': 'Arginine',"
+CGC,Arg,R,Arginine,"'CGC': 'Arg',","'CGC': 'R',","'CGC': 'Arginine',"
+CGG,Arg,R,Arginine,"'CGG': 'Arg',","'CGG': 'R',","'CGG': 'Arginine',"
+CGT,Arg,R,Arginine,"'CGT': 'Arg',","'CGT': 'R',","'CGT': 'Arginine',"
+AAC,Asn,N,Asparagine,"'AAC': 'Asn',","'AAC': 'N',","'AAC': 'Asparagine',"
+AAT,Asn,N,Asparagine,"'AAT': 'Asn',","'AAT': 'N',","'AAT': 'Asparagine',"
+GAC,Asp,D,Aspartic,"'GAC': 'Asp',","'GAC': 'D',","'GAC': 'Aspartic',"
+GAT,Asp,D,Aspartic,"'GAT': 'Asp',","'GAT': 'D',","'GAT': 'Aspartic',"
+TGC,Cys,C,Cysteine,"'TGC': 'Cys',","'TGC': 'C',","'TGC': 'Cysteine',"
+TGT,Cys,C,Cysteine,"'TGT': 'Cys',","'TGT': 'C',","'TGT': 'Cysteine',"
+CAA,Gln,Q,Glutamine,"'CAA': 'Gln',","'CAA': 'Q',","'CAA': 'Glutamine',"
+CAG,Gln,Q,Glutamine,"'CAG': 'Gln',","'CAG': 'Q',","'CAG': 'Glutamine',"
+GAA,Glu,E,Glutamic,"'GAA': 'Glu',","'GAA': 'E',","'GAA': 'Glutamic',"
+GAG,Glu,E,Glutamic,"'GAG': 'Glu',","'GAG': 'E',","'GAG': 'Glutamic',"
+GGA,Gly,G,Glycine,"'GGA': 'Gly',","'GGA': 'G',","'GGA': 'Glycine',"
+GGC,Gly,G,Glycine,"'GGC': 'Gly',","'GGC': 'G',","'GGC': 'Glycine',"
+GGG,Gly,G,Glycine,"'GGG': 'Gly',","'GGG': 'G',","'GGG': 'Glycine',"
+GGT,Gly,G,Glycine,"'GGT': 'Gly',","'GGT': 'G',","'GGT': 'Glycine',"
+CAC,His,H,Histidine,"'CAC': 'His',","'CAC': 'H',","'CAC': 'Histidine',"
+CAT,His,H,Histidine,"'CAT': 'His',","'CAT': 'H',","'CAT': 'Histidine',"
+ATA,Ile,I,Isoleucine,"'ATA': 'Ile',","'ATA': 'I',","'ATA': 'Isoleucine',"
+ATC,Ile,I,Isoleucine,"'ATC': 'Ile',","'ATC': 'I',","'ATC': 'Isoleucine',"
+ATT,Ile,I,Isoleucine,"'ATT': 'Ile',","'ATT': 'I',","'ATT': 'Isoleucine',"
+CTA,Leu,L,Leucine,"'CTA': 'Leu',","'CTA': 'L',","'CTA': 'Leucine',"
+CTC,Leu,L,Leucine,"'CTC': 'Leu',","'CTC': 'L',","'CTC': 'Leucine',"
+CTG,Leu,L,Leucine,"'CTG': 'Leu',","'CTG': 'L',","'CTG': 'Leucine',"
+CTT,Leu,L,Leucine,"'CTT': 'Leu',","'CTT': 'L',","'CTT': 'Leucine',"
+TTA,Leu,L,Leucine,"'TTA': 'Leu',","'TTA': 'L',","'TTA': 'Leucine',"
+TTG,Leu,L,Leucine,"'TTG': 'Leu',","'TTG': 'L',","'TTG': 'Leucine',"
+AAA,Lys,K,Lysine,"'AAA': 'Lys',","'AAA': 'K',","'AAA': 'Lysine',"
+AAG,Lys,K,Lysine,"'AAG': 'Lys',","'AAG': 'K',","'AAG': 'Lysine',"
+ATG,Met,M,Methionine,"'ATG': 'Met',","'ATG': 'M',","'ATG': 'Methionine',"
+TTC,Phe,F,Phenylalanine,"'TTC': 'Phe',","'TTC': 'F',","'TTC': 'Phenylalanine',"
+TTT,Phe,F,Phenylalanine,"'TTT': 'Phe',","'TTT': 'F',","'TTT': 'Phenylalanine',"
+CCA,Pro,P,Proline,"'CCA': 'Pro',","'CCA': 'P',","'CCA': 'Proline',"
+CCC,Pro,P,Proline,"'CCC': 'Pro',","'CCC': 'P',","'CCC': 'Proline',"
+CCG,Pro,P,Proline,"'CCG': 'Pro',","'CCG': 'P',","'CCG': 'Proline',"
+CCT,Pro,P,Proline,"'CCT': 'Pro',","'CCT': 'P',","'CCT': 'Proline',"
+AGC,Ser,S,Serine,"'AGC': 'Ser',","'AGC': 'S',","'AGC': 'Serine',"
+AGT,Ser,S,Serine,"'AGT': 'Ser',","'AGT': 'S',","'AGT': 'Serine',"
+TCA,Ser,S,Serine,"'TCA': 'Ser',","'TCA': 'S',","'TCA': 'Serine',"
+TCC,Ser,S,Serine,"'TCC': 'Ser',","'TCC': 'S',","'TCC': 'Serine',"
+TCG,Ser,S,Serine,"'TCG': 'Ser',","'TCG': 'S',","'TCG': 'Serine',"
+TCT,Ser,S,Serine,"'TCT': 'Ser',","'TCT': 'S',","'TCT': 'Serine',"
+TAA,Stop,Stop,Ochre,"'TAA': 'Stop',","TAA': 'Stop',","'TAA': 'Ochre',"
+TAG,Stop,Stop,Amber,"'TAG': 'Stop',","TAG': 'Stop',","'TAG': 'Amber',"
+TGA,Stop,Stop,Opal,"'TGA': 'Stop',","TGA': 'Stop',","'TGA': 'Opal',"
+ACA,Thr,T,Threonine,"'ACA': 'Thr',","'ACA': 'T',","'ACA': 'Threonine',"
+ACC,Thr,T,Threonine,"'ACC': 'Thr',","'ACC': 'T',","'ACC': 'Threonine',"
+ACG,Thr,T,Threonine,"'ACG': 'Thr',","'ACG': 'T',","'ACG': 'Threonine',"
+ACT,Thr,T,Threonine,"'ACT': 'Thr',","'ACT': 'T',","'ACT': 'Threonine',"
+TGG,Trp,W,Tryptophan,"'TGG': 'Trp',","'TGG': 'W',","'TGG': 'Tryptophan',"
+TAC,Tyr,Y,Tyrosine,"'TAC': 'Tyr',","'TAC': 'Y',","'TAC': 'Tyrosine',"
+TAT,Tyr,Y,Tyrosine,"'TAT': 'Tyr',","'TAT': 'Y',","'TAT': 'Tyrosine',"
+GTA,Val,V,Valine,"'GTA': 'Val',","'GTA': 'V',","'GTA': 'Valine',"
+GTC,Val,V,Valine,"'GTC': 'Val',","'GTC': 'V',","'GTC': 'Valine',"
+GTG,Val,V,Valine,"'GTG': 'Val',","'GTG': 'V',","'GTG': 'Valine',"
+GTT,Val,V,Valine,"'GTT': 'Val',","'GTT': 'V',","'GTT': 'Valine',"
