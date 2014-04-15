@@ -241,6 +241,9 @@ def complement(seq=rndout()):
         output += comp[i]
     return output
 
+def reverse(seq):
+    return seq[::-1]
+
 def transcribe(seq=rndout()):
     output = ""
     for i in seq:
