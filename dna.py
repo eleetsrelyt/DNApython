@@ -16,6 +16,7 @@ tscribe = {
     "G": "C",
     }
 tslate = {
+    }
 
 
 def rndout(count=51, array=dna, space=False):
