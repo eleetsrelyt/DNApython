@@ -13,10 +13,17 @@ comp = {
     "S": "S",
     "W": "W",
     "N": "N",
+    "U": "A",
     }
-tscribe = {
+tscribeDNA = {
     "A": "U",
     "T": "A",
+    "C": "G",
+    "G": "C",
+    }
+tscribeRNA = {
+    "A": "T",
+    "U": "A",
     "C": "G",
     "G": "C",
     }
@@ -249,8 +256,12 @@ def reverse(seq):
 def transcribe(seq=rndout()):
     seq = seq.upper()
     output = ""
-    for i in seq:
-        output += tscribe[i]
+    if seq.find("U") >= 0:
+        for i in seq:
+            output += tscribeRNA[i]
+    else:
+        for i in seq:
+            output += tscribeDNA[i]
     return output
 
 def translate(seq=rndout(), amino=3):
