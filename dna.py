@@ -236,23 +236,64 @@ def rndout(count=51, array=dna, space=False):
         return seq
 
 def complement(seq=rndout()):
+    seq = seq.upper()
     output = ""
     for i in seq:
         output += comp[i]
     return output
 
 def reverse(seq):
+    seq = seq.upper()
     return seq[::-1]
 
 def transcribe(seq=rndout()):
+    seq = seq.upper()
     output = ""
     for i in seq:
         output += tscribe[i]
     return output
 
 def translate(seq=rndout(), amino=3):
-    aaseq = ""
+    seq = seq.upper()
+    aa3 = ""
+    aa32 = ""
+    aa33 = ""
+    count = 1
     if amino == 3:
-        for i in seq:
-            aaseq += tslate3[i]
-    return aaseq
+        for a,b,c, in zip(seq, seq[1:], seq[2:]):
+            if count == 1:
+                aa3 += tslate3[(a + b + c)] + " "
+                count += 1
+            elif count == 2:
+                aa32 += tslate3[(a + b + c)] + " "
+                count += 1
+            else:
+                aa33 += tslate3[(a + b + c)] + " "
+                count = 1
+    elif amino == 1:
+        for a,b,c, in zip(seq, seq[1:], seq[2:]):
+            if count == 1:
+                aa3 += tslate1[(a + b + c)] + " "
+                count += 1
+            elif count == 2:
+                aa32 += tslate1[(a + b + c)] + " "
+                count += 1
+            else:
+                aa33 += tslate1[(a + b + c)] + " "
+                count = 1
+    else:
+        for a,b,c, in zip(seq, seq[1:], seq[2:]):
+            if count == 1:
+                aa3 += tslate[(a + b + c)] + " "
+                count += 1
+            elif count == 2:
+                aa32 += tslate[(a + b + c)] + " "
+                count += 1
+            else:
+                aa33 += tslate[(a + b + c)] + " "
+                count = 1
+    print "Frame1: %s \nFrame2: %s \nFrame3: %s" % (aa3, aa32, aa33)
+
+
+
+
