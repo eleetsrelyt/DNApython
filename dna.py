@@ -226,7 +226,6 @@ tslate = {
     'GTT': 'Valine',
     }
 
-
 def rndout(count=51, array=dna, space=False):
     i = 1
     seq = ""
@@ -253,10 +252,10 @@ def reverse(seq):
     seq = seq.upper()
     return seq[::-1]
 
-def transcribe(seq=rndout()):
+def transcribe(seq=rndout(), type="DNA"):
     seq = seq.upper()
     output = ""
-    if seq.find("U") >= 0:
+    if seq.find("U") >= 0 or type == "RNA":
         for i in seq:
             output += tscribeRNA[i]
     else:
