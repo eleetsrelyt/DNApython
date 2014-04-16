@@ -242,7 +242,7 @@ def rndout(count=51, array=dna, space=False):
             i += 1
         return seq
 
-def complement(seq=rndout()):
+def complementDNA(seq=rndout()):
     seq = seq.upper()
     output = ""
     for i in seq:
@@ -264,7 +264,7 @@ def transcribe(seq=rndout()):
             output += tscribeDNA[i]
     return output
 
-def translate(seq=rndout(), amino=3):
+def translateDNA(seq=rndout(), amino=3):
     seq = seq.upper()
     aa3 = ""
     aa32 = ""
