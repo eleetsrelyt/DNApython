@@ -252,10 +252,10 @@ def reverse(seq):
     seq = seq.upper()
     return seq[::-1]
 
-def transcribe(seq=rndout(), type="DNA"):
+def transcribe(seq=rndout(), DNA=True):
     seq = seq.upper()
     output = ""
-    if seq.find("U") >= 0 or type == "RNA":
+    if seq.find("U") >= 0 or DNA != True:
         for i in seq:
             output += tscribeRNA[i]
     else:
