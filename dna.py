@@ -263,46 +263,46 @@ def transcribe(seq=rndout(), DNA=True):
             output += tscribeDNA[i]
     return output
 
-def translateDNA(seq=rndout(), amino=3):
+def translateDNA(seq=rndout(), pep=3):
     seq = seq.upper()
-    aa3 = ""
-    aa32 = ""
-    aa33 = ""
+    ppep3 = ""
+    ppep32 = ""
+    ppep33 = ""
     count = 1
-    if amino == 3:
+    if pep == 3:
         for a,b,c, in zip(seq, seq[1:], seq[2:]):
             if count == 1:
-                aa3 += tslate3[(a + b + c)] + " "
+                ppep3 += tslate3[(a + b + c)] + " "
                 count += 1
             elif count == 2:
-                aa32 += tslate3[(a + b + c)] + " "
+                ppep32 += tslate3[(a + b + c)] + " "
                 count += 1
             else:
-                aa33 += tslate3[(a + b + c)] + " "
+                ppep33 += tslate3[(a + b + c)] + " "
                 count = 1
-    elif amino == 1:
+    elif pep == 1:
         for a,b,c, in zip(seq, seq[1:], seq[2:]):
             if count == 1:
-                aa3 += tslate1[(a + b + c)] + " "
+                ppep3 += tslate1[(a + b + c)] + " "
                 count += 1
             elif count == 2:
-                aa32 += tslate1[(a + b + c)] + " "
+                ppep32 += tslate1[(a + b + c)] + " "
                 count += 1
             else:
-                aa33 += tslate1[(a + b + c)] + " "
+                ppep33 += tslate1[(a + b + c)] + " "
                 count = 1
     else:
         for a,b,c, in zip(seq, seq[1:], seq[2:]):
             if count == 1:
-                aa3 += tslate[(a + b + c)] + " "
+                ppep3 += tslate[(a + b + c)] + " "
                 count += 1
             elif count == 2:
-                aa32 += tslate[(a + b + c)] + " "
+                ppep32 += tslate[(a + b + c)] + " "
                 count += 1
             else:
-                aa33 += tslate[(a + b + c)] + " "
+                ppep33 += tslate[(a + b + c)] + " "
                 count = 1
-    print "Frame1: %s \nFrame2: %s \nFrame3: %s" % (aa3, aa32, aa33)
+    print "Frame1: %s \nFrame2: %s \nFrame3: %s" % (ppep3, ppep32, ppep33)
 
 
 
