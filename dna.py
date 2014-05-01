@@ -226,6 +226,28 @@ tslate = {
     'GTT': 'Valine',
     }
 
+def dnahelp():
+    print "rndout(count, array, space)"
+    print "   count: number of random characters to output"
+    print "   array: dna, rna, binary, or any other array to choose from"
+    print "   space: include whitespace (True) or not (False) between characters"
+    print ""
+    print "complementDNA(seq)"
+    print "   seq: input sequence"
+    print ""
+    print "reverse(seq)"
+    print "   seq: input sequence"
+    print ""
+    print "transcribe(seq, DNA)"
+    print "   seq: input sequence"
+    print "   DNA: DNA or RNA"
+    print ""
+    print "translateDNA(seq, pep)"
+    print "   seq: input sequence"
+    print "   pep: peptide abreviations as 3 letter (3) 1 letter (1) or full lenght (0)"
+
+    
+
 def rndout(count=51, array=dna, space=False):
     i = 1
     seq = ""
